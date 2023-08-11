@@ -3,11 +3,11 @@
 let path = require('path');
 
 module.exports = {
-  mode: 'development',
-  entry: './js/script.js',
+  mode: 'production',
+  entry: './src/js/script.js',
   output: {
     filename: 'bundle.js',
-    path: __dirname + '/js'
+    path: __dirname + '/dist/js'
   },
   watch: true,
 
